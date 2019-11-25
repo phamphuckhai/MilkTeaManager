@@ -17,15 +17,22 @@
                 <dragablz:TabablzControl.InterTabController>
                     <dragablz:InterTabController/>
                 </dragablz:TabablzControl.InterTabController>
-                <TabItem Header="Đặt món">
-                    
+                <!--order+thanh toán+xuất hóa đơn-->
+                <TabItem Header="Bán trà sữa">
                 </TabItem>
-                <TabItem Header="Hóa đơn">
-
-                </TabItem>
+                
+                <!--Thống kê thu chi-->
                 <TabItem Header="Thống kê">
-
                 </TabItem>
+
+                <!--Quản lý cửa hàng-->
+                <TabItem Header="Quản lý cửa hàng">
+                </TabItem>
+
+                <!--Lập phiếu báo cáo-->
+                <TabItem Header="Lập báo cáo">
+                </TabItem>
+                
             </dragablz:TabablzControl>
         </Grid>
     </Grid>

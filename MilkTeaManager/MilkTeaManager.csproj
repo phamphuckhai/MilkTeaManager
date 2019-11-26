@@ -78,8 +78,11 @@
     </ApplicationDefinition>
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
-    <Compile Include="Views\CustomerAdding.xaml.cs">
+    <Compile Include="Views\Dialog\CustomerAdding.xaml.cs">
       <DependentUpon>CustomerAdding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialog\OrderForm.xaml.cs">
+      <DependentUpon>OrderForm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SellProduct.xaml.cs">
       <DependentUpon>SellProduct.xaml</DependentUpon>
@@ -91,7 +94,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\CustomerAdding.xaml">
+    <Page Include="Views\Dialog\CustomerAdding.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialog\OrderForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

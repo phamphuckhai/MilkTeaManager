@@ -78,11 +78,20 @@
     </ApplicationDefinition>
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="Views\CustomControls\SearchTextBox.xaml.cs">
+      <DependentUpon>SearchTextBox.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Dialog\CustomerAdding.xaml.cs">
       <DependentUpon>CustomerAdding.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Dialog\OrderForm.xaml.cs">
       <DependentUpon>OrderForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageFunction\ManageCustomer.xaml.cs">
+      <DependentUpon>ManageCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageFunction\ManageProduct.xaml.cs">
+      <DependentUpon>ManageProduct.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SellProduct.xaml.cs">
       <DependentUpon>SellProduct.xaml</DependentUpon>
@@ -94,11 +103,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\CustomControls\SearchTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Dialog\CustomerAdding.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Dialog\OrderForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManageFunction\ManageCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManageFunction\ManageProduct.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -162,6 +183,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\Styles\TextBoxStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -192,6 +217,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\Images\customeravatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\Images\SearchIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

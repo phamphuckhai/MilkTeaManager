@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace MilkTeaManager.Views.ManageFunction
 {
     /// <summary>
-    /// Interaction logic for ManageProductType.xaml
+    /// Interaction logic for ImportMaterial.xaml
     /// </summary>
-    public partial class ManageProductType : Window
+    public partial class ImportMaterial : Window
     {
-        public ManageProductType()
+        public ImportMaterial()
         {
             InitializeComponent();
         }

@@ -60,6 +60,10 @@ C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\Manag
 C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\AddProduct.g.cs
 C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\AddProduct.baml
 C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\EditProduct.g.cs
-C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\ManageFunction\ManageProductType.g.cs
 C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\EditProduct.baml
-C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\ManageFunction\ManageProductType.baml
+C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\ManageFunction\ImportMaterial.g.cs
+C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\ManageFunction\ImportMaterial.baml
+C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\AddMaterial.g.cs
+C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\ManageFunction\ListImportBill.g.cs
+C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\AddMaterial.baml
+C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\Views\ManageFunction\ListImportBill.baml

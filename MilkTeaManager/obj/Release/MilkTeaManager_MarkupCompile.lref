@@ -1,6 +1,7 @@
 ﻿
 FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\App.xaml;;
 FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\CustomControls\SearchTextBox.xaml;;
+FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Dialog\AddProduct.xaml;;
 FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Dialog\CustomerAdding.xaml;;
 FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Dialog\OrderForm.xaml;;
 FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\ManageFunction\ManageCustomer.xaml;;
@@ -17,4 +18,6 @@ FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Styles\TabButton
 FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Styles\TabControlStyle.xaml;;
 FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Styles\TextBlockStyle.xaml;;
 FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Styles\TextBoxStyle.xaml;;
+FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Dialog\EditProduct.xaml;;
+FC:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\ManageFunction\ManageProductType.xaml;;
 

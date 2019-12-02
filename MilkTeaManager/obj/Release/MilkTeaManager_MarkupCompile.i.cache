@@ -10,11 +10,11 @@ none
 false
 TRACE
 C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\App.xaml
-21-1672407717
+24-1828588677
 
-17-1437061276
+20472165590
 73-49234072
-Views\CustomControls\SearchTextBox.xaml;Views\Dialog\CustomerAdding.xaml;Views\Dialog\OrderForm.xaml;Views\ManageFunction\ManageCustomer.xaml;Views\ManageFunction\ManageProduct.xaml;Views\SellProduct.xaml;Views\ShellView.xaml;Views\Styles\BorderStyle.xaml;Views\Styles\ButtonStyle.xaml;Views\Styles\CustomWindowStyle.xaml;Views\Styles\DataGridStyle.xaml;Views\Styles\DatePickerStyle.xaml;Views\Styles\ExpanderStyle.xaml;Views\Styles\ImageStyle.xaml;Views\Styles\LabelStyle.xaml;Views\Styles\ListBoxStyle.xaml;Views\Styles\MaterialDesignCardStyle.xaml;Views\Styles\TabButtonStyle.xaml;Views\Styles\TabControlStyle.xaml;Views\Styles\TextBlockStyle.xaml;Views\Styles\TextBoxStyle.xaml;
+Views\CustomControls\SearchTextBox.xaml;Views\Dialog\AddProduct.xaml;Views\Dialog\CustomerAdding.xaml;Views\Dialog\EditProduct.xaml;Views\Dialog\OrderForm.xaml;Views\ManageFunction\ManageCustomer.xaml;Views\ManageFunction\ManageProduct.xaml;Views\ManageFunction\ManageProductType.xaml;Views\SellProduct.xaml;Views\ShellView.xaml;Views\Styles\BorderStyle.xaml;Views\Styles\ButtonStyle.xaml;Views\Styles\CustomWindowStyle.xaml;Views\Styles\DataGridStyle.xaml;Views\Styles\DatePickerStyle.xaml;Views\Styles\ExpanderStyle.xaml;Views\Styles\ImageStyle.xaml;Views\Styles\LabelStyle.xaml;Views\Styles\ListBoxStyle.xaml;Views\Styles\MaterialDesignCardStyle.xaml;Views\Styles\TabButtonStyle.xaml;Views\Styles\TabControlStyle.xaml;Views\Styles\TextBlockStyle.xaml;Views\Styles\TextBoxStyle.xaml;
 
 True
 

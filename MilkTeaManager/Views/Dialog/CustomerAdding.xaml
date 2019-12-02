@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MilkTeaManager.Views"
         mc:Ignorable="d"
+        ResizeMode="NoResize"
         Title="CustomerAdding" Height="600" Width="500">
     <Window.Resources>
         

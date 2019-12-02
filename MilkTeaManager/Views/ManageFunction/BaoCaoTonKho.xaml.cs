@@ -12,19 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MilkTeaManager.Views
+namespace MilkTeaManager.Views.ManageFunction
 {
     /// <summary>
-    /// Interaction logic for SellProduct.xaml
+    /// Interaction logic for BaoCaoTonKho.xaml
     /// </summary>
-    public partial class SellProduct : Window
+    public partial class BaoCaoTonKho : Window
     {
-        public SellProduct()
+        public BaoCaoTonKho()
         {
             InitializeComponent();
         }
 
-        private void TabablzControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void BtnLoadBaoCao_Click(object sender, RoutedEventArgs e)
         {
 
         }

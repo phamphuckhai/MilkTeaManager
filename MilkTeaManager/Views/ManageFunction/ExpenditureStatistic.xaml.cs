@@ -12,21 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MilkTeaManager.Views
+namespace MilkTeaManager.Views.ManageFunction
 {
     /// <summary>
-    /// Interaction logic for SellProduct.xaml
+    /// Interaction logic for ExpenditureStatistic.xaml
     /// </summary>
-    public partial class SellProduct : Window
+    public partial class ExpenditureStatistic : Window
     {
-        public SellProduct()
+        public ExpenditureStatistic()
         {
             InitializeComponent();
-        }
-
-        private void TabablzControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
     }
 }

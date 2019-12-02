@@ -317,7 +317,7 @@
                                  Width="400"
                                  
                                  >
-                <dragablz:TabablzControl Background="{Binding Path=Background,ElementName=ThanhToanCard}">
+                <dragablz:TabablzControl Background="{Binding Path=Background,ElementName=ThanhToanCard}" SelectionChanged="TabablzControl_SelectionChanged">
                     <dragablz:TabablzControl.InterTabController>
                         <dragablz:InterTabController/>
                     </dragablz:TabablzControl.InterTabController>

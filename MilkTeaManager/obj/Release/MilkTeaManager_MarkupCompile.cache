@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\obj\Release\
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\
 MilkTeaManager
 none
 false
 TRACE
-C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\App.xaml
-26-982792610
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\App.xaml
+27-995840704
 
-181158025268
-73-49234072
-Views\CustomControls\SearchTextBox.xaml;Views\Dialog\AddMaterial.xaml;Views\Dialog\AddProduct.xaml;Views\Dialog\CustomerAdding.xaml;Views\Dialog\EditProduct.xaml;Views\Dialog\OrderForm.xaml;Views\ManageFunction\ImportMaterial.xaml;Views\ManageFunction\ListImportBill.xaml;Views\ManageFunction\ManageCustomer.xaml;Views\ManageFunction\ManageProduct.xaml;Views\SellProduct.xaml;Views\ShellView.xaml;Views\Styles\BorderStyle.xaml;Views\Styles\ButtonStyle.xaml;Views\Styles\CustomWindowStyle.xaml;Views\Styles\DataGridStyle.xaml;Views\Styles\DatePickerStyle.xaml;Views\Styles\ExpanderStyle.xaml;Views\Styles\ImageStyle.xaml;Views\Styles\LabelStyle.xaml;Views\Styles\ListBoxStyle.xaml;Views\Styles\MaterialDesignCardStyle.xaml;Views\Styles\TabButtonStyle.xaml;Views\Styles\TabControlStyle.xaml;Views\Styles\TextBlockStyle.xaml;Views\Styles\TextBoxStyle.xaml;
+19-1008273848
+73-487230573
+Views\CustomControls\SearchTextBox.xaml;Views\Dialog\AddMaterial.xaml;Views\Dialog\AddProduct.xaml;Views\Dialog\CustomerAdding.xaml;Views\Dialog\EditProduct.xaml;Views\Dialog\OrderForm.xaml;Views\ManageFunction\ImportMaterial.xaml;Views\ManageFunction\ListImportBill.xaml;Views\ManageFunction\ManageCustomer.xaml;Views\ManageFunction\ManageProduct.xaml;Views\ManageFunction\RevenueStatistic.xaml;Views\SellProduct.xaml;Views\ShellView.xaml;Views\Styles\BorderStyle.xaml;Views\Styles\ButtonStyle.xaml;Views\Styles\CustomWindowStyle.xaml;Views\Styles\DataGridStyle.xaml;Views\Styles\DatePickerStyle.xaml;Views\Styles\ExpanderStyle.xaml;Views\Styles\ImageStyle.xaml;Views\Styles\LabelStyle.xaml;Views\Styles\ListBoxStyle.xaml;Views\Styles\MaterialDesignCardStyle.xaml;Views\Styles\TabButtonStyle.xaml;Views\Styles\TabControlStyle.xaml;Views\Styles\TextBlockStyle.xaml;Views\Styles\TextBoxStyle.xaml;
 
 False
 

@@ -33,7 +33,7 @@
 
     <Style TargetType="{x:Type Expander}" BasedOn="{StaticResource MaterialDesignExpander}" x:Key="UIProjectMenuExpanderStyle">
         <Setter Property="HeaderTemplate" Value="{StaticResource MenuTabExpanderHeaderDataTemplate}"/>
-        <Setter Property="Background" Value="{DynamicResource RoyalBlue}"/>
+        <Setter Property="Background" Value="Blue"/>
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="IsExpanded" Value="False"/>
         <Setter Property="Margin" Value="0"/>

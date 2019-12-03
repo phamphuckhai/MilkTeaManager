@@ -72,7 +72,7 @@
     </Style>
 
     <Style x:Key="SubMenuTabRadioButtonStyle" TargetType="{x:Type RadioButton}" BasedOn="{StaticResource MenuTabRadioButtonStyle}">
-        <Setter Property="Background" Value="{DynamicResource PrimaryHueMidBrush}"/>
+        <Setter Property="Background" Value="Blue"/>
         <Setter Property="ContentTemplate" Value="{StaticResource SubtabButtonTemplate}"/>
         <Setter Property="GroupName" Value="Group1"/>
         <Style.Triggers>

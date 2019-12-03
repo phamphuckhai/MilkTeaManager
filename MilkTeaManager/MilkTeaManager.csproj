@@ -8,12 +8,13 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>MilkTeaManager</RootNamespace>
     <AssemblyName>MilkTeaManager</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -77,6 +78,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="ViewModels\LayoutViewModels\ContentViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
     <Compile Include="Views\CustomControls\SearchTextBox.xaml.cs">
       <DependentUpon>SearchTextBox.xaml</DependentUpon>
@@ -114,6 +116,9 @@
     <Compile Include="Views\Dialog\OrderForm.xaml.cs">
       <DependentUpon>OrderForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\MainHomepage.xaml.cs">
+      <DependentUpon>MainHomepage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ManageFunction\ImportMaterial.xaml.cs">
       <DependentUpon>ImportMaterial.xaml</DependentUpon>
     </Compile>
@@ -131,6 +136,18 @@
     </Compile>
     <Compile Include="Views\ManageFunction\ManageSupplier.xaml.cs">
       <DependentUpon>ManageSupplier.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\ExpenditureStatistic.xaml.cs">
+      <DependentUpon>ExpenditureStatistic.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\InventoryReport.xaml.cs">
+      <DependentUpon>InventoryReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\MaterialReport.xaml.cs">
+      <DependentUpon>MaterialReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\RevenueStatistic.xaml.cs">
+      <DependentUpon>RevenueStatistic.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SellProduct.xaml.cs">
       <DependentUpon>SellProduct.xaml</DependentUpon>
@@ -190,6 +207,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\MainHomepage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ManageFunction\ImportMaterial.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -211,6 +232,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ManageFunction\ManageSupplier.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\ExpenditureStatistic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\InventoryReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\MaterialReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\RevenueStatistic.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -326,6 +363,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Views\Images\save_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseMVVM_Service\BaseMVVM_Service.csproj">
+      <Project>{7e11786a-f16c-4af2-a654-33e0b0ef43c6}</Project>
+      <Name>BaseMVVM_Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

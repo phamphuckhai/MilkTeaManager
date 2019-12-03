@@ -87,11 +87,29 @@
     <Compile Include="Views\Dialog\AddProduct.xaml.cs">
       <DependentUpon>AddProduct.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Dialog\CustomerAdding.xaml.cs">
-      <DependentUpon>CustomerAdding.xaml</DependentUpon>
+    <Compile Include="Views\Dialog\AddStaff.xaml.cs">
+      <DependentUpon>AddStaff.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialog\AddCustomer.xaml.cs">
+      <DependentUpon>AddCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialog\AddSupplier.xaml.cs">
+      <DependentUpon>AddSupplier.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialog\EditCustomer.xaml.cs">
+      <DependentUpon>EditCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialog\EditImportBill.xaml.cs">
+      <DependentUpon>EditImportBill.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Dialog\EditProduct.xaml.cs">
       <DependentUpon>EditProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialog\EditStaff.xaml.cs">
+      <DependentUpon>EditStaff.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialog\EditSupplier.xaml.cs">
+      <DependentUpon>EditSupplier.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Dialog\OrderForm.xaml.cs">
       <DependentUpon>OrderForm.xaml</DependentUpon>
@@ -107,6 +125,12 @@
     </Compile>
     <Compile Include="Views\ManageFunction\ManageProduct.xaml.cs">
       <DependentUpon>ManageProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageFunction\ManageStaff.xaml.cs">
+      <DependentUpon>ManageStaff.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageFunction\ManageSupplier.xaml.cs">
+      <DependentUpon>ManageSupplier.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\SellProduct.xaml.cs">
       <DependentUpon>SellProduct.xaml</DependentUpon>
@@ -130,11 +154,35 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Dialog\CustomerAdding.xaml">
+    <Page Include="Views\Dialog\AddStaff.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialog\AddCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialog\AddSupplier.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialog\EditCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialog\EditImportBill.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Dialog\EditProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialog\EditStaff.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Dialog\EditSupplier.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -155,6 +203,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ManageFunction\ManageProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManageFunction\ManageStaff.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ManageFunction\ManageSupplier.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -261,6 +317,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Views\Images\tongquan_donhang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\Images\staff2_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\Images\staff1_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\Images\save_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

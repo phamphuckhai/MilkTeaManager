@@ -29,7 +29,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition/>
-            <RowDefinition Height="200"/>
+            <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="75*"/>
@@ -109,42 +109,47 @@
                         materialDesign:DataGridAssist.ColumnHeaderPadding="8"
                         SelectionUnit="FullRow" Panel.ZIndex="-1" Grid.RowSpan="2">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Width="60"
+                    <DataGridTextColumn Width="50"
                                                 Header="STT"
                                                 IsReadOnly="True"
                                                 CanUserSort="False"
                                                 HeaderStyle="{StaticResource CenteredDataGridHeader}"
                                                 CellStyle="{StaticResource CenteredDataGridCell}"/>
-                    <DataGridTextColumn Width="90"
+                    <DataGridTextColumn Width="80"
                                                 IsReadOnly="True"
                                                 Header="Mã NL"
                                                 HeaderStyle="{StaticResource CenteredDataGridHeader}"
                                                 CellStyle="{StaticResource CenteredDataGridCell}"
                                                 />
-                    <DataGridTextColumn Width="200"
+                    <DataGridTextColumn Width="150"
                                                 CanUserSort="False"
                                                 Header="Tên nguyên liệu"                                           
                                                 IsReadOnly="True"
                                                 TextBlock.TextAlignment="Left"
                                                 HeaderStyle="{StaticResource CenteredDataGridHeader}"
                                                 CellStyle="{StaticResource CenteredDataGridCell}"/>
-                    
                     <DataGridTextColumn Width="150"
+                                                Header="Nhà cung cấp"
+                                                HeaderStyle="{StaticResource CenteredDataGridHeader}"
+                                                CellStyle="{StaticResource RightDataGridCell}"
+                                                EditingElementStyle="{StaticResource CustomEditingTextColumnElementStyle}"
+                                                IsReadOnly="False"/>
+                    <DataGridTextColumn Width="130"
                                                 Header="Giá nhập"
                                                 HeaderStyle="{StaticResource CenteredDataGridHeader}"
                                                 CellStyle="{StaticResource RightDataGridCell}"
                                                 EditingElementStyle="{StaticResource CustomEditingTextColumnElementStyle}"
                                                 IsReadOnly="False"/>
-                    <DataGridTextColumn Width="150"
+                    <DataGridTextColumn Width="130"
                                                 Header="Giá bán"
                                                 HeaderStyle="{StaticResource CenteredDataGridHeader}"
                                                 CellStyle="{StaticResource RightDataGridCell}"
                                                 EditingElementStyle="{StaticResource CustomEditingTextColumnElementStyle}"
                                                 IsReadOnly="False"/>
-                    <DataGridTextColumn Width="150"
+                    <DataGridTextColumn Width="80"
                                                 Header="Số lượng"
                                                 HeaderStyle="{StaticResource CenteredDataGridHeader}"
-                                                CellStyle="{StaticResource RightDataGridCell}"
+                                                CellStyle="{StaticResource CenteredDataGridCell}"
                                                 EditingElementStyle="{StaticResource CustomEditingTextColumnElementStyle}"
                                                 IsReadOnly="False"/>
                     <DataGridTemplateColumn Width="30"
@@ -181,6 +186,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                     <RowDefinition/>
+                    <RowDefinition/>
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="0"
                             Orientation="Vertical"
@@ -211,6 +217,34 @@
                         </DatePicker.SelectedDate>
                     </DatePicker>
                 </StackPanel>
+                <Grid Grid.Row="2" Margin="0 60 0 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                            Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                        x:Name="btnEditProductInfo"
+                                        ToolTip="Chỉnh sửa thông tin sản phẩm"
+                                    Width="40"
+                                    Height="40">
+                        <materialDesign:PackIcon Kind="TableEdit"
+                                                             Height="30"
+                                                             Width="30"/>
+                    </Button>
+                    <Button Grid.Column="1"
+                            Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                    x:Name="btnDeleteProduct"
+                                    ToolTip="Xóa sản phẩm khỏi cửa hàng"
+                                    Background="Red"
+                                    Width="40"
+                                    Height="40">
+                        <materialDesign:PackIcon Kind="DeleteForever" 
+                                                         Width="30"
+                                                         Height="30"
+                                                         />
+                    </Button>
+                </Grid>
             </Grid>
         </materialDesign:Card>
         <materialDesign:Card Grid.Row="3"

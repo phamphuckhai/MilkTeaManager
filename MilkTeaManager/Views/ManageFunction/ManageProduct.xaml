@@ -51,7 +51,7 @@
                                               FontSize="40"
                                               Width="350"/>
                         <Grid>
-                            <Label HorizontalAlignment="Center" Width="50" Height="50" Background="#0033CC">
+                            <Label HorizontalAlignment="Center" Width="50" Height="50" Background="#669BBF">
                                 <Image  HorizontalAlignment="Center"  Width="40" Height="40" Source="C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Images\SearchIcon.png"/>
                             </Label>
 

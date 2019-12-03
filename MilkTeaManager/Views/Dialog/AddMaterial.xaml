@@ -7,7 +7,8 @@
         xmlns:local="clr-namespace:MilkTeaManager.Views.Dialog"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="AddMaterial" Height="600" Width="500">
+        WindowStartupLocation="CenterScreen"
+        Title="AddMaterial" Height="600" Width="450">
     <Window.Resources>
 
         <Style x:Key="CustomDefinedLabelStyle" TargetType="Label" BasedOn="{StaticResource BelowMediumLabelStyle}">
@@ -65,7 +66,7 @@
                                 <RowDefinition/>
                                 <RowDefinition/>
                                 <RowDefinition/>
-                                <RowDefinition Height="auto"/>
+                                <RowDefinition/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
@@ -85,6 +86,9 @@
                             <Label Grid.Row="3" Grid.Column="0"
                                    Style="{StaticResource CustomDefinedLabelStyle}"
                                    Content="Số lượng"/>
+                            <Label Grid.Row="4" Grid.Column="0"
+                                   Style="{StaticResource CustomDefinedLabelStyle}"
+                                   Content="Nhà cung cấp"/>
 
                             <TextBox Grid.Row="0" Grid.Column="1"
                                      Style="{StaticResource CustomTextBoxStyle}"
@@ -98,7 +102,13 @@
                             <TextBox Grid.Row="3" Grid.Column="1"
                                      Style="{StaticResource CustomTextBoxStyle}"
                                      Text="{Binding Data.TenSP, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-
+                            <ComboBox 
+                                      Grid.Row="4" Grid.Column="1"
+                                      HorizontalAlignment="Stretch"
+                                      Margin="10"                                    
+                                      Height="30"
+                                      DisplayMemberPath="TenKhuVuc"
+                                      />
                         </Grid>
                     </StackPanel>
                 </Grid>

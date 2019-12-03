@@ -6,8 +6,9 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:MilkTeaManager.Views.Dialog"
         mc:Ignorable="d"
-        ResizeMode="NoResize"
-        Title="EditProduct" Height="650" Width="500">
+        ResizeMode="CanResize"
+        Title="EditProduct" Height="650" Width="500"
+        WindowStartupLocation="CenterScreen">
     <Window.Resources>
        
         <Style x:Key="CustomDefinedLabelStyle" TargetType="Label" BasedOn="{StaticResource BelowMediumLabelStyle}">

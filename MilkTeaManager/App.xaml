@@ -65,6 +65,7 @@
                         <ResourceDictionary Source="./Views/Styles/ButtonStyle.xaml"/>
                         <ResourceDictionary Source="./Views/Styles/ImageStyle.xaml"/>
                         <ResourceDictionary Source="./Views/Styles/BorderStyle.xaml"/>
+                        <ResourceDictionary Source="./Views/Styles/TextBoxStyle.xaml"/>
                         <ResourceDictionary Source="./Views/Styles/MaterialDesignCardStyle.xaml"/>
                     </ResourceDictionary.MergedDictionaries>
                 </ResourceDictionary>

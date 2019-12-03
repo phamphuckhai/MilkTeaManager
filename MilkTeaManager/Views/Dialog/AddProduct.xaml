@@ -7,7 +7,8 @@
         xmlns:local="clr-namespace:MilkTeaManager.Views.Dialog"
         mc:Ignorable="d"
         Title="AddProduct" Height="700" Width="530"
-        ResizeMode="NoResize">
+        ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen">
     <Window.Resources>
         
         <Style x:Key="CustomDefinedLabelStyle" TargetType="Label" BasedOn="{StaticResource BelowMediumLabelStyle}">

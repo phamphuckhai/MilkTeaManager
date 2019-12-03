@@ -6,16 +6,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MilkTeaManager.Views"
         xmlns:dragablz="http://dragablz.net/winfx/xaml/dragablz"
+        xmlns:customControls="clr-namespace:MilkTeaManager.Views.CustomControls"
         mc:Ignorable="d"
-        Title="SellProduct" Height="800" Width="1100"
+        Title="SellProduct" Height="800" Width="1200"
         Background="#F2F2F2">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <!--Tab đặt món-->
-        <materialDesign:Card  Grid.Column="0" Margin="5" VerticalAlignment="Stretch">
+        <materialDesign:Card  Grid.Column="0" Margin="5" VerticalAlignment="Stretch" Style="{StaticResource UIProjectMaterialDesignCardStyle}">
             <Grid Grid.Column="0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -310,19 +311,13 @@
             </Grid.RowDefinitions>
 
             <materialDesign:Card Style="{StaticResource UIProjectMaterialDesignCardStyle}"
-                                 Background="White"
-                                 Margin="5 0 5 5"
-                                 HorizontalAlignment="Stretch"
-                                 VerticalAlignment="Stretch"
-                                 Width="400"
                                  
-                                 >
-                <dragablz:TabablzControl Background="{Binding Path=Background,ElementName=ThanhToanCard}">
-                    <dragablz:TabablzControl.InterTabController>
-                        <dragablz:InterTabController/>
-                    </dragablz:TabablzControl.InterTabController>
-                   
-                    <TabItem Header="Khách hàng" >
+                                 Margin="5 0 5 5">
+                <TabControl HorizontalAlignment="Stretch" 
+                            Style="{StaticResource CustomTabControlStyle}"
+                            Background="{Binding Path=Background, ElementName=ThanhToanCard}">
+                    <TabItem x:Name="TabKhachHang"
+                             Header="Khách hàng" FontSize="20">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="auto"/>
@@ -332,31 +327,55 @@
                                   HorizontalAlignment="Stretch"
                                   Panel.ZIndex="2">
                                 <Grid.ColumnDefinitions>
+                                    <ColumnDefinition  Width="auto"/>
                                     <ColumnDefinition/>
-                                    <ColumnDefinition Width="auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBox
-                                    x:Name="NameTextBox"
-                                    FontSize="25"
-                                    FontWeight="Normal"
-                                    materialDesign:HintAssist.Hint="Tìm kiếm khách hàng"
-                                    Margin="5">
+                                <Grid Grid.Column="0">
+                                    <StackPanel Orientation="Horizontal">
+                                        <customControls:SearchTextBox  Grid.Column="0" Margin="3 0 0 0"
+                                              HorizontalAlignment="Right"
+                                              VerticalContentAlignment="Bottom"
+                                              FontSize="30"
+                                              Width="200"
+                                                       Height="40"
+                                                               BorderThickness="1"
+                                                               BorderBrush="Black"/>
+                                        <Grid>
+                                            <Label HorizontalAlignment="Center" Width="40" Height="40" Background="#669BBF">
+                                                <Image  HorizontalAlignment="Center"  Width="30" Height="30" Source="C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Images\SearchIcon.png"/>
+                                            </Label>
 
-                                </TextBox>
+                                            <Button 
+                                        HorizontalAlignment="Left"
+                                        Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                                        Height="40"
+                                        Width="40"
+                                        ToolTip="Resource name: MaterialDesignRaisedLightDarkButton"
+                                        Background="Transparent"
+                                        >
 
-                                <Button
-                                    Grid.Column="1"
-                                    Margin="3"
-                                    Style="{StaticResource MaterialDesignFloatingActionDarkButton}"
-                                    ToolTip="MaterialDesignFloatingActionDarkButton">
-                                    <materialDesign:PackIcon
-                                        Kind="PersonAdd"
-                                        Height="24"
-                                        Width="24" />           
+                                            </Button>
+                                        </Grid>
+
+                                    </StackPanel>
+                                </Grid>
+                                <Button x:Name="btnAddCustomer"
+                                        Grid.Column="1"
+                                        HorizontalAlignment="Left"
+                                        Margin="7 10 5 10"
+                                        Style="{DynamicResource UIProjectDarkIconButtonStyle}"
+                                        ToolTip="Thêm khách hàng mới"
+                                        Width="50"
+                                        Height="50"
+                                       >
+                                    <materialDesign:PackIcon Kind="PersonAdd"
+                                                             Height="auto"
+                                                             Width="auto"
+                                                             Foreground="White"/>
                                 </Button>
                             </Grid>
-                            <Grid Grid.Row="1" Grid.ColumnSpan="2" Margin="5 25 5 5 "
-                                >
+                            <Grid Grid.Row="1" Grid.ColumnSpan="2"
+                                  DataContext="{Binding HoaDonVM.KhachHang, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="1*"/>
                                     <ColumnDefinition Width="2*"/>
@@ -367,27 +386,23 @@
                                     <RowDefinition/>
                                     <RowDefinition/>
                                 </Grid.RowDefinitions>
-
-                                <TextBlock Grid.Row="0" Grid.Column="0"
-                                    Style="{StaticResource MaterialDesignTitleTextBlock}" FontSize="20" Margin="3" Text="Họ tên:"/>
-
-                                <TextBlock Grid.Row="1" Grid.Column="0"
-                                    Style="{StaticResource MaterialDesignTitleTextBlock}" FontSize="20" Margin="3" Text="Điện thoại:"/>
-                                <TextBlock Grid.Row="2" Grid.Column="0"
-                                    Style="{StaticResource MaterialDesignTitleTextBlock}" FontSize="20" Margin="3" Text="Địa chỉ:"/>
-
+                                <Label Grid.Row="0" Grid.Column="0"
+                                       Content="Họ tên"/>
+                                <Label Grid.Row="1" Grid.Column="0"
+                                       Content="Điện thoại"/>
+                                <Label Grid.Row="2" Grid.Column="0"
+                                       Content="Địa chỉ"/>
                                 <Label Grid.Row="0" Grid.Column="1"
-                                   />
+                                       x:Name="Ten"
+                                       Content="{Binding TenKH}"/>
                                 <Label Grid.Row="1" Grid.Column="1"
-                                   />
+                                   Content="{Binding SDT}"/>
                                 <Label Grid.Row="2" Grid.Column="1"
-                                   />
+                                   Content="{Binding DiaChi}"/>
                             </Grid>
                         </Grid>
                     </TabItem>
-
-                    
-                    <TabItem Header="Tùy chọn">
+                    <TabItem Header="Tùy chọn" FontSize="20">
                         <Grid>
                             <Grid.Resources>
                                 <Style TargetType="{x:Type TextBox}" >
@@ -396,30 +411,27 @@
                             </Grid.Resources>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="2*"/>
                             </Grid.ColumnDefinitions>
-
-
-                            
-                            <TextBlock Grid.Column="0"
-                                    Margin="0 10 0 0"
-                                    VerticalAlignment="Top"
-                                    HorizontalAlignment="Center"
-                                    Style="{StaticResource MaterialDesignTitleTextBlock}" FontSize="20"  Text="Ghi chú:"/>
-
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="1" Grid.Column="0"
+                                   VerticalAlignment="Top"
+                                   Margin="5 10 5 5"
+                                   Content="Ghi chú"/>
+                            <TextBox Grid.Row="0" Grid.Column="1"
+                                     Text="{Binding TenNhanVien}"
+                                     IsEnabled="False"/>
                             <TextBox Grid.Row="1" Grid.Column="1"
+                                     Style="{StaticResource UIProjectMultipleLineTextBoxStyle}"
                                      Margin="7"
                                      Height="auto"
                                      VerticalAlignment="Stretch"
-                                    />
-
+                                     Text="{Binding HoaDonVM.PhieuBan.GhiChu, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"/>
                         </Grid>
                     </TabItem>
-
-
-                </dragablz:TabablzControl>
-                
-                
+                </TabControl>
             </materialDesign:Card>
 
             <materialDesign:Card x:Name="ThanhToanCard" Grid.Row="1" Margin="5 15 5 5" Style="{StaticResource UIProjectMaterialDesignCardStyle}">

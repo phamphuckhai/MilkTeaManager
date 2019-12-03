@@ -62,7 +62,7 @@
                                               FontSize="40"
                                               Width="350"/>
                 <Grid>
-                    <Label Width="50" Height="50" Background="#0033CC"/>
+                    <Label Width="50" Height="50" Background="#669BBF"/>
                     <Image  Margin="5"
                         Source="C:\Users\User\Source\Repos\MilkTeaManager\MilkTeaManager\Views\Images\SearchIcon.png">
                         

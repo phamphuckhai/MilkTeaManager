@@ -242,3 +242,11 @@ C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\
 C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Pages\InventoryReport.baml
 C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Pages\MaterialReport.baml
 C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Pages\RevenueStatistic.baml
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\RevenueForm.g.cs
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\ExpenditureForm.g.cs
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\InventoryReportForm.g.cs
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\MaterialReport.g.cs
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\RevenueForm.baml
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\ExpenditureForm.baml
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\InventoryReportForm.baml
+C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\obj\Release\Views\Dialog\MaterialReport.baml

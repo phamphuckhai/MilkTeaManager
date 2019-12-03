@@ -10,11 +10,11 @@ none
 false
 TRACE
 C:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\App.xaml
-39-1116274425
+43-1918791621
 
-32-1500320176
+361946961617
 125-197867372
-Views\CustomControls\SearchTextBox.xaml;Views\Dialog\AddMaterial.xaml;Views\Dialog\AddProduct.xaml;Views\Dialog\AddStaff.xaml;Views\Dialog\AddCustomer.xaml;Views\Dialog\AddSupplier.xaml;Views\Dialog\EditCustomer.xaml;Views\Dialog\EditImportBill.xaml;Views\Dialog\EditProduct.xaml;Views\Dialog\EditStaff.xaml;Views\Dialog\EditSupplier.xaml;Views\Dialog\OrderForm.xaml;Views\MainHomepage.xaml;Views\ManageFunction\ImportMaterial.xaml;Views\ManageFunction\ListImportBill.xaml;Views\ManageFunction\ManageCustomer.xaml;Views\ManageFunction\ManageProduct.xaml;Views\ManageFunction\ManageStaff.xaml;Views\ManageFunction\ManageSupplier.xaml;Views\Pages\ExpenditureStatistic.xaml;Views\Pages\InventoryReport.xaml;Views\Pages\MaterialReport.xaml;Views\Pages\RevenueStatistic.xaml;Views\SellProduct.xaml;Views\ShellView.xaml;Views\Styles\BorderStyle.xaml;Views\Styles\ButtonStyle.xaml;Views\Styles\CustomWindowStyle.xaml;Views\Styles\DataGridStyle.xaml;Views\Styles\DatePickerStyle.xaml;Views\Styles\ExpanderStyle.xaml;Views\Styles\ImageStyle.xaml;Views\Styles\LabelStyle.xaml;Views\Styles\ListBoxStyle.xaml;Views\Styles\MaterialDesignCardStyle.xaml;Views\Styles\TabButtonStyle.xaml;Views\Styles\TabControlStyle.xaml;Views\Styles\TextBlockStyle.xaml;Views\Styles\TextBoxStyle.xaml;
+Views\CustomControls\SearchTextBox.xaml;Views\Dialog\AddMaterial.xaml;Views\Dialog\AddProduct.xaml;Views\Dialog\AddStaff.xaml;Views\Dialog\AddCustomer.xaml;Views\Dialog\AddSupplier.xaml;Views\Dialog\EditCustomer.xaml;Views\Dialog\EditImportBill.xaml;Views\Dialog\EditProduct.xaml;Views\Dialog\EditStaff.xaml;Views\Dialog\EditSupplier.xaml;Views\Dialog\ExpenditureForm.xaml;Views\Dialog\InventoryReportForm.xaml;Views\Dialog\MaterialReport.xaml;Views\Dialog\OrderForm.xaml;Views\Dialog\RevenueForm.xaml;Views\MainHomepage.xaml;Views\ManageFunction\ImportMaterial.xaml;Views\ManageFunction\ListImportBill.xaml;Views\ManageFunction\ManageCustomer.xaml;Views\ManageFunction\ManageProduct.xaml;Views\ManageFunction\ManageStaff.xaml;Views\ManageFunction\ManageSupplier.xaml;Views\Pages\ExpenditureStatistic.xaml;Views\Pages\InventoryReport.xaml;Views\Pages\MaterialReport.xaml;Views\Pages\RevenueStatistic.xaml;Views\SellProduct.xaml;Views\ShellView.xaml;Views\Styles\BorderStyle.xaml;Views\Styles\ButtonStyle.xaml;Views\Styles\CustomWindowStyle.xaml;Views\Styles\DataGridStyle.xaml;Views\Styles\DatePickerStyle.xaml;Views\Styles\ExpanderStyle.xaml;Views\Styles\ImageStyle.xaml;Views\Styles\LabelStyle.xaml;Views\Styles\ListBoxStyle.xaml;Views\Styles\MaterialDesignCardStyle.xaml;Views\Styles\TabButtonStyle.xaml;Views\Styles\TabControlStyle.xaml;Views\Styles\TextBlockStyle.xaml;Views\Styles\TextBoxStyle.xaml;
 
 False
 

@@ -273,7 +273,7 @@
                                             HeaderStyle="{StaticResource CenteredDataGridHeader}"
                                             CellStyle="{StaticResource CenteredDataGridCell}"/>
 
-                                            <DataGridTemplateColumn 
+                                        <DataGridTemplateColumn 
                                                 Width="30"
                                             HeaderStyle="{StaticResource CenteredDataGridHeader}"
                                             CellStyle="{StaticResource ButtonDataGridCellStyle}">
@@ -377,9 +377,9 @@
                 </Grid.ColumnDefinitions>
                 <Button x:Name="btnTaiThongKeThu"
                 Height="auto"
-                Margin="10,0,10,-1"
+                Margin="10,0,219,-1"
                 Style="{StaticResource UIProjectDarkButtonStyle}"
-                Content="Tải báo cáo"  Grid.Column="0" />
+                Content="Tải báo cáo"  Grid.Column="0" Grid.ColumnSpan="2" />
                 <Button x:Name="btnInThongKeThu"
                 Height="auto"
                 Margin="10,0,0,-1"

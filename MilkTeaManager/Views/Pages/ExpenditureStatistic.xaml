@@ -95,7 +95,7 @@
                                      Style="{StaticResource UIProjectMaterialDesignCardStyle}" Margin="0,0,0,9"
                                      >
                 <DataGrid 
-                            Margin="3,3,3,10"
+                            Margin="0,3,3,10"
                         CanUserSortColumns="True"
                         CanUserAddRows="False"
                         CanUserResizeColumns="False"
@@ -103,9 +103,9 @@
                         AutoGenerateColumns="False"
                         materialDesign:DataGridAssist.CellPadding="8"
                         materialDesign:DataGridAssist.ColumnHeaderPadding="8"
-                        SelectionUnit="FullRow" Panel.ZIndex="-1" Grid.RowSpan="2" >
+                        SelectionUnit="FullRow" Panel.ZIndex="-1" Grid.RowSpan="2" SelectionChanged="DataGrid_SelectionChanged" >
                     <DataGrid.Columns>
-                        <DataGridTextColumn Width="0"
+                        <DataGridTextColumn Width="40"
                                                 Header="STT"
                                                 IsReadOnly="True"
                                                 CanUserSort="False"

@@ -10,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MilkTeaManager.Views.Pages
+namespace MilkTeaManager.Views.Dialog
 {
     /// <summary>
-    /// Interaction logic for ExpenditureStatistic.xaml
+    /// Interaction logic for MaterialReport.xaml
     /// </summary>
-    public partial class ExpenditureStatistic : Page
+    public partial class MaterialReport : Window
     {
-        public ExpenditureStatistic()
+        public MaterialReport()
         {
             InitializeComponent();
-        }
-
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
     }
 }

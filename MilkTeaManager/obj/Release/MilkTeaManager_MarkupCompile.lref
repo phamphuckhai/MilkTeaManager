@@ -12,6 +12,7 @@ FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Dialog\Edit
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Dialog\EditStaff.xaml;;
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Dialog\EditSupplier.xaml;;
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Dialog\OrderForm.xaml;;
+FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Dialog\RevenueForm.xaml;;
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\MainHomepage.xaml;;
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\ManageFunction\ImportMaterial.xaml;;
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\ManageFunction\ListImportBill.xaml;;
@@ -35,4 +36,7 @@ FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Styles\TabB
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Styles\TabControlStyle.xaml;;
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Styles\TextBlockStyle.xaml;;
 FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Styles\TextBoxStyle.xaml;;
+FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Dialog\ExpenditureForm.xaml;;
+FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Dialog\InventoryReportForm.xaml;;
+FC:\Users\Admin\Documents\GitHub\MilkTeaManager\MilkTeaManager\Views\Dialog\MaterialReport.xaml;;
 
